@@ -173,7 +173,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/event-collection/dev/1599056302029-2020-09-02T14:18:22.029Z/event-collection.zip"
+                "S3Key": "serverless/event-collection/dev/1599057444755-2020-09-02T14:37:24.755Z/event-collection.zip"
               },
               "FunctionName": "event-collection-dev-collect",
               "Handler": "handler.collect",
@@ -316,7 +316,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1599056299617": {
+          "ApiGatewayDeployment1599057442066": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -531,7 +531,7 @@
       },
       "package": {
         "artifact": "C:\\Users\\Maipato.Nkebenyane\\Desktop\\atc-tracker-demo\\.serverless\\event-collection.zip",
-        "artifactDirectoryName": "serverless/event-collection/dev/1599056302029-2020-09-02T14:18:22.029Z"
+        "artifactDirectoryName": "serverless/event-collection/dev/1599057444755-2020-09-02T14:37:24.755Z"
       },
       "layers": {
         "$ref": "$[\"service\"][\"layers\"]"
@@ -542,7 +542,7 @@
     "artifact": "C:\\Users\\Maipato.Nkebenyane\\Desktop\\atc-tracker-demo\\.serverless\\event-collection.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/event-collection/dev/1599056302029-2020-09-02T14:18:22.029Z",
+    "artifactDirectoryName": "serverless/event-collection/dev/1599057444755-2020-09-02T14:37:24.755Z",
     "artifact": "event-collection.zip"
   }
 }
