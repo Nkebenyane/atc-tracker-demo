@@ -155,7 +155,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/event-collection/dev/1599119035451-2020-09-03T07:43:55.451Z/event-collection.zip"
+          "S3Key": "serverless/event-collection/dev/1599129564497-2020-09-03T10:39:24.497Z/event-collection.zip"
         },
         "FunctionName": "event-collection-dev-collect",
         "Handler": "handler.collect",
@@ -298,7 +298,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1599119032475": {
+    "ApiGatewayDeployment1599129562081": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
