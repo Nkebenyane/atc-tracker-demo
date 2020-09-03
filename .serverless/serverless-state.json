@@ -9,7 +9,6 @@
       "variableSyntax": "\\${([^{}]+?)}",
       "name": "aws",
       "runtime": "nodejs8.10",
-      "region": "us-east-1",
       "iamRoleStatements": [
         {
           "Effect": "Allow",
@@ -21,6 +20,7 @@
           ]
         }
       ],
+      "region": "us-east-1",
       "versionFunctions": true,
       "compiledCloudFormationTemplate": {
         "AWSTemplateFormatVersion": "2010-09-09",
@@ -173,7 +173,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/event-collection/dev/1599115635605-2020-09-03T06:47:15.605Z/event-collection.zip"
+                "S3Key": "serverless/event-collection/dev/1599119035451-2020-09-03T07:43:55.451Z/event-collection.zip"
               },
               "FunctionName": "event-collection-dev-collect",
               "Handler": "handler.collect",
@@ -316,7 +316,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1599115630867": {
+          "ApiGatewayDeployment1599119032475": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -516,13 +516,11 @@
     },
     "configValidationMode": "warn",
     "serviceFilename": "serverless.yml",
-    "app": "event-collection",
     "layers": {},
     "initialServerlessConfig": {
       "service": {
         "$ref": "$[\"service\"][\"serviceObject\"]"
       },
-      "app": "event-collection",
       "provider": {
         "$ref": "$[\"service\"][\"provider\"]"
       },
@@ -531,7 +529,7 @@
       },
       "package": {
         "artifact": "C:\\Users\\Maipato.Nkebenyane\\Desktop\\atc-tracker-demo\\.serverless\\event-collection.zip",
-        "artifactDirectoryName": "serverless/event-collection/dev/1599115635605-2020-09-03T06:47:15.605Z"
+        "artifactDirectoryName": "serverless/event-collection/dev/1599119035451-2020-09-03T07:43:55.451Z"
       },
       "layers": {
         "$ref": "$[\"service\"][\"layers\"]"
@@ -542,7 +540,7 @@
     "artifact": "C:\\Users\\Maipato.Nkebenyane\\Desktop\\atc-tracker-demo\\.serverless\\event-collection.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/event-collection/dev/1599115635605-2020-09-03T06:47:15.605Z",
+    "artifactDirectoryName": "serverless/event-collection/dev/1599119035451-2020-09-03T07:43:55.451Z",
     "artifact": "event-collection.zip"
   }
 }
